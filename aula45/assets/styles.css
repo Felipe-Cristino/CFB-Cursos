@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    background: #eeeeee;
+
+}
+
+.caixa {
+    border: 4px solid black;
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.btn {
+    padding: 10px;
+    background-color: rgb(32, 15, 222);
+    border-radius: 10px;
+    border: 4px solid black;
+    cursor: pointer;
+}
+
+.curso:hover {
+    background-color:rgb(121, 109, 139);
+}
+
+input {
+    height: 25px;
+}
+
+.div-cursos {
+    padding: 10px 25px;
+    background-color: rgb(208, 207, 219);
+    border-radius: 10px;
+    border: 4px solid black;
+    cursor: pointer;
+    width: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+

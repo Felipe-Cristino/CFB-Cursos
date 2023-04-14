@@ -1,0 +1,31 @@
+* {
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#timer {
+    background-color: #333;
+    color: #0f0;
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    padding: 10px 20px;
+    justify-content: center;
+    width: 250px;
+    border-radius: 10px;
+    border: 5px solid #888;
+}
+
+button {
+    background-color: #888;
+    width: 60px;
+    padding: 5px 15px;
+    margin-left: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
